@@ -1,39 +1,70 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Amy Buckley Fitness
+by Donal O'Farrell
 
-Welcome USER_NAME,
+Milestone Project 1: User-Centric Frontend Development - Code Institute 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+This is my second attempt at the project. 
 
-## Gitpod Reminders
+The planning for this project can be found here: 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+https://docs.google.com/document/d/1IStCi0tCLSHwtD9C5PukdXQtL47PG-FKGtzEI14P-W0/edit#heading=h.40tljqgwa982
 
-`python3 -m http.server`
+With the wireframe mock ups here:
 
-A blue button should appear to click: *Make Public*,
+https://drive.google.com/file/d/1lBN4D5zSlP-7d592f_k_4y1DuZ_YQnXh/view
 
-Another blue button should appear to click: *Open Browser*.
+## UX
+My design goal with the site was to keep things simple and go with a mobile-first approach. The color scheme was chosen to be effiecent, easy to take in quickly and the white and blue associated with fitness.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+For clients, I wanted them to have quick access to the class timetable and they can access that with just one click from the landing page and with the links being very visible.
 
-A blue button should appear to click: *Make Public*,
+For potential new PT clients, I have have made the Personal training section of equal importance on the NavBar and again just one click away. 
 
-Another blue button should appear to click: *Open Browser*.
+## Technologies
+1. HTML
+2. CSS
+3. Bootstrap (4.3)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
 
-## Updates Since The Instructional Video
+## Features
+This site contains built in audio files of the band's greatest hits and direct access to one of their music videos. A modal window is in place to get in contact with the band.
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Features Left to Implement
+I still have elements to fully correct their functionality and to tidy up. I would also like to add some quotes for corporate and weddings customers in the booking section.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+I still need to create the social media icon links. Have placeholder text in the left of the footer where I will put them in.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Testing
+The fans in the user stories can access to the music files as desired.
 
---------
+The booking form has the 'required' tags for the name, email and message section so these can't be left blank. The email section also needs to recognize a valid email address before you can submit. Accessing the modal window was also tested from all pages and all device sizes.
 
-Happy coding!
+The navbar connects all pages smoothly and was tested accross full device range.
+
+
+## Deployment
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/dof-bull/ci_milestone_project_1_Vandal_Youth.git` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
+
+
+## Credits
+
+### Content
+All  text content in this site were written by me on behalf of the fictional band VANDAL YOUTH. 
+
+### Media
+All photos, audio files and video links were given to me by my course provider. This are based on the famous band The Monkees
+
+### Acknowledgements
+All code used in this project was written by me, either in previous tutorials (such as the modal) or done during the course or during the project itself.
+
+Exceptions:
+
+The table element taken directly from Bootstrap though heavily adapted for audio purposes.
+
+The video player element was based on the example (https://www.w3schools.com/html/html5_video.asp).
+
+**This project is for education purposes and not for commercial purposes**
