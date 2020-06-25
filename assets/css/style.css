@@ -6,6 +6,10 @@ header {
   margin: 0;
 }
 
+.heading {
+  margin-left: 50px;
+}
+
 .logo {
   background: url("../images/Amy Buckley Fitness Logo without text.jpg");
   background-position: center;
@@ -15,4 +19,21 @@ header {
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
+}
+
+.name {
+  font-family: "Abel", sans-serif;
+  font-weight: 100;
+  font-size: 46px;
+  margin-top: 50px;
+  color: #0071bd;
+}
+
+.title {
+  font-family: "Abel", sans-serif;
+  font-weight: 200;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+  color: #0071bd;
 }
