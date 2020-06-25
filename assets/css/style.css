@@ -7,22 +7,22 @@
 }
 
 .bg-color-contact {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .ui-menu-color-home {
-  background-color: #2A2B2A;
+  background-color: #2a2b2a;
 }
 
 .ui-menu-color-timetable {
-  background-color: #A8763E;
+  background-color: #a8763e;
 }
 .ui-menu-color-pt {
-  background-color: #B08250;
+  background-color: #b08250;
 }
 
 .ui-menu-color-contact {
-  background-color: #CF5C36;
+  background-color: #cf5c36;
 }
 
 /*------Special paddings/margins/text-------*/
@@ -101,7 +101,7 @@ header {
   font-size: 28px;
   margin-top: 20px;
   margin-bottom: 90px;
-  color: #2A2B2A;
+  color: #2a2b2a;
 }
 
 .list-inline-item:not(:last-child) {
@@ -162,21 +162,10 @@ header {
 /*-------------Footer-------------*/
 
 footer {
-  background-color: #2A2B2A;
+  background-color: #2a2b2a;
   color: #fafafa;
   min-height: 120px;
   margin: 0;
-}
-
-.cv-pdf i {
-  font-size: 18px;
-  color: #fafafa;
-  text-align: center;
-  padding-left: 5px;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links {
@@ -200,9 +189,19 @@ footer {
 }
 
 .social-links li a i:hover {
-  background: #CF5C36;
+  background: #cf5c36;
 }
 
 #footer-details {
   padding: 20px;
+}
+
+/*-------------Trainer Photo -------------*/
+
+.trainerphoto {
+  background: url("../images/Amy Buckley Personal Trainer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 725px;
 }
