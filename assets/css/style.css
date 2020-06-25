@@ -48,17 +48,12 @@ h4 {
   display: inline-block;
 }
 
-.row-table {
-  display: table;
-}
-
 .section-column {
   display: table-cell;
   padding: 0 30px 30px;
   float: none;
 }
 
-.history-heading,
 .section-heading {
   font-family: "Abel", sans-serif;
   font-weight: 300;
@@ -200,7 +195,7 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 725px;
+  min-height: 700px;
 }
 
 /*-------------What I do-------------*/
