@@ -59,11 +59,13 @@ All  text content in this site were written by me on behalf of the fictional ban
 All photos, audio files and video links were given to me by my course provider. This are based on the famous band The Monkees
 
 ### Acknowledgements
-All code used in this project was written by me, either in previous tutorials (such as the modal) or done during the course or during the project itself.
+All code used in this project was written by me, either in previous tutorials or done during the course or during the project itself.
 
 Exceptions:
 
-The table element taken directly from Bootstrap though heavily adapted for audio purposes.
+Thanks to Ginifab for their excellent color picker app so I could get the HEX from the logo (https://www.ginifab.com/feeds/pms/color_picker_from_image.php).
+
+Thanks to for use of their color pallete generator (https://coolors.co/0071bd-fffffc-2a2b2a-a8763e).
 
 The video player element was based on the example (https://www.w3schools.com/html/html5_video.asp).
 
