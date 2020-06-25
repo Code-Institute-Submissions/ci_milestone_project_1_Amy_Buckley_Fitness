@@ -7,7 +7,11 @@
 }
 
 .bg-color-contact {
-  background-color: #fff;
+  background-color: #f8feff;
+}
+
+.bg-color-what-i-do {
+  background-color: #f8feff;
 }
 
 .ui-menu-color-home {
@@ -41,7 +45,7 @@ h4 {
 .general-sub {
   font-family: "Abel", sans-serif;
   font-weight: 300;
-  color: #fafafa;
+  color: #f8feff;
 }
 
 .inline-block {
@@ -122,14 +126,14 @@ header {
 .menuitem a {
   width: 100%;
   text-decoration: none;
-  color: #ffffff;
+  color: #f8feff;
   height: 120px;
 }
 
 .menuitem a i {
   padding-top: 22px;
   display: block;
-  color: #fafafa;
+  color: #f8feff;
   font-size: 26px;
 }
 
@@ -155,7 +159,7 @@ header {
 
 footer {
   background-color: #2a2b2a;
-  color: #fafafa;
+  color: #f8feff;
   min-height: 120px;
   margin: 0;
 }
@@ -172,7 +176,7 @@ footer {
   font-size: 13px;
   line-height: 7px;
   text-align: center;
-  color: #fafafa;
+  color: #f8feff;
   background: #0071bd;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
