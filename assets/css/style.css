@@ -216,3 +216,13 @@ footer {
 .what-i-do-points {
   padding: 10px;
 }
+
+/*-------------Class Timetable-------------*/
+
+.timetable-header {
+    background-color: #0071bd
+}
+
+ .first-stripe {
+    background-color: #b08250
+}
