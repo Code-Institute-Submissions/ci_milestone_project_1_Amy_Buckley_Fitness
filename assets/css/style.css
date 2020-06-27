@@ -220,6 +220,9 @@ footer {
 /*-------------Class Timetable-------------*/
 
 .timetable-header {
-    background-color: #0071bd
+    background-color: #0071bd;
 }
 
+.bg-class-timetable-header {
+    color: #2a2b2a;
+}
