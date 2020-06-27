@@ -268,3 +268,7 @@ button[type="submit"] {
     color: #f8feff;
     background-color: #0071bd;
 }
+
+.send-btn:hover {
+  background: #cf5c36;
+}
