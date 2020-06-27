@@ -219,8 +219,12 @@ footer {
 
 /*-------------Class Timetable-------------*/
 
-.timetable-header {
+.timetable-header-1 {
     background-color: #0071bd;
+}
+
+.timetable-header-2 {
+    background-color: #cf5c36;
 }
 
 .bg-class-timetable-header {

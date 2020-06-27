@@ -1,184 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Amy Buckley Fitness</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-	</script>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
-		type="text/css" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<title>Amy Buckley Fitness</title>
-</head>
-
-<body>
-	<!---------------------------------Header---------------------------------------------------------------->
-	<header>
-		<div class="row no-gutters">
-			<a href="index.html" class="col-md-4 logo"> </a>
-			<div class="col-md-8">
-				<div class="row no-gutters bg-color-name-title">
-					<div class="col heading">
-						<h1 class="name">Amy Buckley Fitness</h1>
-						<h2 class="title">Personal Trainer & Fitness Coach</h2>
-					</div>
-				</div>
-				<!---------------------------------Navbar---------------------------------------------------------------->
-				<div class="row no-gutters">
-					<div class="col">
-						<ul id="nav" class="list-inline menucontainer">
-							<li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
-								<a href="index.html"
-									class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
-							</li>
-							<li class="col-6 col-sm-3 ui-menu-color-timetable list-inline-item menuitem">
-								<a href="classes.html"
-									class="hvr-sweep-to-bottom"><i class="fa fa-server" aria-hidden="true"></i><span>Class Timetable</span></a>
-							</li>
-							<li class="col-6 col-sm-3 ui-menu-color-pt list-inline-item menuitem">
-								<a href="PersonalTraining.html"
-									class="hvr-sweep-to-bottom"><i class="fa fa-heartbeat" aria-hidden="true"></i><span>Personal Training</span></a>
-							</li>
-							<li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
-								<a href="contact.html"
-									class="hvr-sweep-to-bottom"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	<!---------------------------------Section---------------------------------------------------------------->
-	<section class="container-fluid">
-		<div class="row">
-			<div class="col">
-				<h3 class="section-heading uppercase">Class Timetable</h3>
-			</div>
-		</div>
-	<!---------------------------------Timetable from Bootsrap------------------------------------------------>
-		<table class="table table-striped timetable">
-			<thead>
-				<tr class="timetable-header">
-					<th scope="col">Time</th>
-                    <th scope="col">Monday</th>
-					<th scope="col">Tuesday</th>
-					<th scope="col">Wednesday</th>
-					<th scope="col">Thursday</th>
-					<th scope="col">Friday</th>
-					<th scope="col">Saturday</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th scope="row">08:00</th>
-					<td>Bootcamp</td>
-					<td>Bootcamp</td>
-					<td>Bootcamp</td>
-					<td>Bootcamp</td>
-					<td>Bootcamp</td>
-					<td>Bootcamp</td>
-				</tr>
-				<tr>
-					<th scope="row">09:00</th>
-					<td>Abs Blast</td>
-					<td>Abs Blast</td>
-					<td>Abs Blast</td>
-					<td>Abs Blast</td>
-					<td>Abs Blast</td>
-					<td>Abs Blast</td>
-				</tr>
-				<tr>
-					<th scope="row">10:00</th>
-					<td>TRX</td>
-					<td>TRX</td>
-                    <td>TRX</td>
-					<td>TRX</td>
-					<td>TRX</td>
-					<td>TRX</td>
-				</tr>
-				<tr>
-					<th scope="row">17:00</th>
-					<td>Spin</td>
-					<td>Spin</td>
-					<td>Spin</td>
-					<td>Spin</td>
-					<td>Spin</td>
-					<td>Spin</td>
-				</tr>
-				<tr>
-					<th scope="row">18:00</th>
-					<td>Circuits</td>
-					<td>Circuits</td>
-					<td>Circuits</td>
-					<td>Circuits</td>
-					<td>Circuits</td>
-					<td>Circuits</td>
-				</tr>
-				<tr>
-					<th scope="row">19:00</th>
-					<td>Strength Training</td>
-					<td>Strength Training</td>
-					<td>Strength Training</td>
-					<td>Strength Training</td>
-					<td>Strength Training</td>
-					<td>Strength Training</td>
-				</tr>
-			</tbody>
-		</table>
-		<div class="row">
-			<div class="col">
-				<p>*Please note that class sizes are limted to 8 people. Booking in advance highly recommened.</p>
-			</div>
-		</div>
-	</section>
-	<!---------------------------------Footer---------------------------------------------------------------->
-	<footer class="container-fluid">
-		<div id="footer-details" class="row">
-			<div class="col-sm-4">
-				<h5 class="uppercase general-sub">About</h5>
-				<p class="inline-block">
-					Fully qualified & insured personal trainer.
-				</p>
-			</div>
-			<div class="col-sm-4">
-				<h5 class="uppercase general-sub">Email</h5>
-				<p class="inline-block">
-					amybuckleypt@gmail.com
-				</p>
-			</div>
-			<div class="col-sm-4">
-				<h5 class="uppercase general-sub">Social</h5>
-				<ul class="list-inline social-links">
-					<li class="list-inline-item">
-						<a target="_blank"
-							href="https://www.facebook.com/Amybfitness/?modal=admin_todo_tour&notif_id=1593022441789979&notif_t=page_invite">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-							<span class="sr-only">Facebook</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="https://www.instagram.com/amybuckley_fitness/?hl=en">
-							<i class="fa fa-instagram" aria-hidden="true"></i>
-							<span class="sr-only">Instagram</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank"
-							href="https://www.linkedin.com/in/amy-buckley-7b4109133/?originalSubdomain=ie">
-							<i class="fa fa-linkedin" aria-hidden="true"></i>
-							<span class="sr-only">LinkedIn</span>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</footer>
-</body>
-
+  <body>
+    <!---------------------------------Header---------------------------------------------------------------->
+    <header>
+      <div class="row no-gutters">
+        <a href="index.html" class="col-md-4 logo"> </a>
+        <div class="col-md-8">
+          <div class="row no-gutters bg-color-name-title">
+            <div class="col heading">
+              <h1 class="name">Amy Buckley Fitness</h1>
+              <h2 class="title">Personal Trainer & Fitness Coach</h2>
+            </div>
+          </div>
+          <!---------------------------------Navbar---------------------------------------------------------------->
+          <div class="row no-gutters">
+            <div class="col">
+              <ul id="nav" class="list-inline menucontainer">
+                <li
+                  class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem"
+                >
+                  <a href="index.html" class="hvr-sweep-to-bottom"
+                    ><i class="fa fa-home" aria-hidden="true"></i
+                    ><span>Home</span></a
+                  >
+                </li>
+                <li
+                  class="col-6 col-sm-3 ui-menu-color-timetable list-inline-item menuitem"
+                >
+                  <a href="classes.html" class="hvr-sweep-to-bottom"
+                    ><i class="fa fa-server" aria-hidden="true"></i
+                    ><span>Class Timetable</span></a
+                  >
+                </li>
+                <li
+                  class="col-6 col-sm-3 ui-menu-color-pt list-inline-item menuitem"
+                >
+                  <a href="PersonalTraining.html" class="hvr-sweep-to-bottom"
+                    ><i class="fa fa-heartbeat" aria-hidden="true"></i
+                    ><span>Personal Training</span></a
+                  >
+                </li>
+                <li
+                  class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem"
+                >
+                  <a href="contact.html" class="hvr-sweep-to-bottom"
+                    ><i class="fa fa-comment-o" aria-hidden="true"></i
+                    ><span>Contact</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!---------------------------------Section---------------------------------------------------------------->
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <h3 class="section-heading uppercase">Class Timetable</h3>
+		<p>
+			*Please note that class sizes are limted to 8 people. Booking in
+			advance highly recommended.
+		</p>
+        </div>
+      </div>
+      <!---------------------------------Timetable from Bootsrap------------------------------------------------>
+      <!---------------------------------Monday------------------------------------------------>
+      <table class="table table-striped timetable">
+        <thead>
+          <tr class="timetable-header-1">
+            <th scope="col">Monday</th>
+            <th scope="col">Class</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">08:00</th>
+            <td>Bootcamp</td>
+          </tr>
+          <tr>
+            <th scope="row">09:00</th>
+            <td>ABS Blast</td>
+          </tr>
+          <tr>
+            <th scope="row">10:00</th>
+            <td>TRX</td>
+          </tr>
+          <tr>
+            <th scope="row">17:00</th>
+            <td>Spin</td>
+          </tr>
+          <tr>
+            <th scope="row">18:00</th>
+            <td>Circuits</td>
+          </tr>
+          <tr>
+            <th scope="row">19:00</th>
+            <td>Strength Training</td>
+          </tr>
+        </tbody>
+      </table>
+      <!---------------------------------Tuesday------------------------------------------------>
+      <table class="table table-striped timetable">
+        <thead>
+          <tr class="timetable-header-2">
+            <th scope="col">Tuesday</th>
+            <th scope="col">Class</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">08:00</th>
+            <td>Bootcamp</td>
+          </tr>
+          <tr>
+            <th scope="row">09:00</th>
+            <td>ABS Blast</td>
+          </tr>
+          <tr>
+            <th scope="row">10:00</th>
+            <td>TRX</td>
+          </tr>
+          <tr>
+            <th scope="row">17:00</th>
+            <td>Spin</td>
+          </tr>
+          <tr>
+            <th scope="row">18:00</th>
+            <td>Circuits</td>
+          </tr>
+          <tr>
+            <th scope="row">19:00</th>
+            <td>Strength Training</td>
+          </tr>
+        </tbody>
+      </table>
+      <!---------------------------------Wednesday------------------------------------------------>
+	<table class="table table-striped timetable">
+		<thead>
+			<tr class="timetable-header-1">
+				<th scope="col">Wednesday</th>
+				<th scope="col">Class</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">08:00</th>
+				<td>Bootcamp</td>
+			</tr>
+			<tr>
+				<th scope="row">09:00</th>
+				<td>ABS Blast</td>
+			</tr>
+			<tr>
+				<th scope="row">10:00</th>
+				<td>TRX</td>
+			</tr>
+			<tr>
+				<th scope="row">17:00</th>
+				<td>Spin</td>
+			</tr>
+			<tr>
+				<th scope="row">18:00</th>
+				<td>Circuits</td>
+			</tr>
+			<tr>
+				<th scope="row">19:00</th>
+				<td>Strength Training</td>
+			</tr>
+		</tbody>
+	</table>
+      <!---------------------------------Thursday------------------------------------------------>
+      <table class="table table-striped timetable">
+        <thead>
+          <tr class="timetable-header-2">
+            <th scope="col">Thursday</th>
+            <th scope="col">Class</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">08:00</th>
+            <td>Bootcamp</td>
+          </tr>
+          <tr>
+            <th scope="row">09:00</th>
+            <td>ABS Blast</td>
+          </tr>
+          <tr>
+            <th scope="row">10:00</th>
+            <td>TRX</td>
+          </tr>
+          <tr>
+            <th scope="row">17:00</th>
+            <td>Spin</td>
+          </tr>
+          <tr>
+            <th scope="row">18:00</th>
+            <td>Circuits</td>
+          </tr>
+          <tr>
+            <th scope="row">19:00</th>
+            <td>Strength Training</td>
+          </tr>
+        </tbody>
+      </table>
+      <!---------------------------------Friday------------------------------------------------>
+      <table class="table table-striped timetable">
+        <thead>
+          <tr class="timetable-header-1">
+            <th scope="col">Friday</th>
+            <th scope="col">Class</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">08:00</th>
+            <td>Bootcamp</td>
+          </tr>
+          <tr>
+            <th scope="row">09:00</th>
+            <td>ABS Blast</td>
+          </tr>
+          <tr>
+            <th scope="row">10:00</th>
+            <td>TRX</td>
+          </tr>
+          <tr>
+            <th scope="row">17:00</th>
+            <td>Spin</td>
+          </tr>
+          <tr>
+            <th scope="row">18:00</th>
+            <td>Circuits</td>
+          </tr>
+          <tr>
+            <th scope="row">19:00</th>
+            <td>Strength Training</td>
+          </tr>
+        </tbody>
+      </table>
+      <!---------------------------------Saturday------------------------------------------------>
+      <table class="table table-striped timetable">
+        <thead>
+          <tr class="timetable-header-2">
+            <th scope="col">Saturday</th>
+            <th scope="col">Class</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">08:00</th>
+            <td>Bootcamp</td>
+          </tr>
+          <tr>
+            <th scope="row">09:00</th>
+            <td>ABS Blast</td>
+          </tr>
+          <tr>
+            <th scope="row">10:00</th>
+            <td>TRX</td>
+          </tr>
+          <tr>
+            <th scope="row">17:00</th>
+            <td>Spin</td>
+          </tr>
+          <tr>
+            <th scope="row">18:00</th>
+            <td>Circuits</td>
+          </tr>
+          <tr>
+            <th scope="row">19:00</th>
+            <td>Strength Training</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="row">
+        <div class="col">
+          <p>*There are no Sunday classes.</p>
+        </div>
+      </div>
+    </section>
+    <!---------------------------------Footer---------------------------------------------------------------->
+    <footer class="container-fluid">
+      <div id="footer-details" class="row">
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">About</h5>
+          <p class="inline-block">
+            Fully qualified & insured personal trainer.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">Email</h5>
+          <p class="inline-block">
+            amybuckleypt@gmail.com
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">Social</h5>
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/Amybfitness/?modal=admin_todo_tour&notif_id=1593022441789979&notif_t=page_invite"
+              >
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                target="_blank"
+                href="https://www.instagram.com/amybuckley_fitness/?hl=en"
+              >
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/amy-buckley-7b4109133/?originalSubdomain=ie"
+              >
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <span class="sr-only">LinkedIn</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
