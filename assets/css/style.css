@@ -220,13 +220,27 @@ footer {
 /*-------------Class Timetable-------------*/
 
 .timetable-header-1 {
-    background-color: #0071bd;
+  background-color: #0071bd;
 }
 
 .timetable-header-2 {
-    background-color: #cf5c36;
+  background-color: #cf5c36;
 }
 
 .bg-class-timetable-header {
-    color: #2a2b2a;
+  color: #2a2b2a;
+}
+
+.timetable {
+  max-width: 1000px;
+}
+
+/*-------------PT Photo -------------*/
+
+.ptphoto {
+  background: url("../images/Amy Buckely PT Photo.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
 }
