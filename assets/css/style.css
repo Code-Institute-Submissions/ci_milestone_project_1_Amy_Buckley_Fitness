@@ -209,6 +209,10 @@ footer {
   color: #0071bd;
 }
 
-.waht-i-do-heading {
+.what-i-do-heading {
   margin-bottom: 15px;
+}
+
+.what-i-do-points {
+    padding: 10px;
 }
