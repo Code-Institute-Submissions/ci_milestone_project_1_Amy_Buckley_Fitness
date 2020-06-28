@@ -9,7 +9,7 @@ The planning for this project can be found here:
 
 https://docs.google.com/document/d/1IStCi0tCLSHwtD9C5PukdXQtL47PG-FKGtzEI14P-W0/edit#heading=h.40tljqgwa982
 
-With the wireframe mock ups here:
+With the wireframe mock up here:
 
 https://drive.google.com/file/d/1lBN4D5zSlP-7d592f_k_4y1DuZ_YQnXh/view
 
@@ -54,7 +54,7 @@ To run locally, you can clone this repository directly into the editor of your c
 
 Thanks to Ginifab for their excellent color picker app so I could get the HEX from the logo (https://www.ginifab.com/feeds/pms/color_picker_from_image.php).
 
-Thanks to for use of their color pallete generator (https://coolors.co/0071bd-fffffc-2a2b2a-a8763e).
+Thanks to Coolors.co for use of their color pallete generator (https://coolors.co/0071bd-fffffc-2a2b2a-a8763e).
 
 ### Content
 All text content in this site were written by me on behalf of Amy Buckley Fitness. 
@@ -65,10 +65,4 @@ All photos are used with permission of Amy Buckley Fitness.
 ### Acknowledgements
 All code used in this project was written by me, either in previous tutorials, during the course or during the project itself.
 
-Exceptions:
-
-Thanks to Ginifab for their excellent color picker app so I could get the HEX from the logo (https://www.ginifab.com/feeds/pms/color_picker_from_image.php).
-
-Thanks to for use of their color pallete generator (https://coolors.co/0071bd-fffffc-2a2b2a-a8763e).
-
-**This project is currently for education purposes and not for commercial purposes**
+**This project is currently for education purposes only and not for commercial purposes**
