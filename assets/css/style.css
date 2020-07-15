@@ -84,7 +84,7 @@ header {
 }
 
 .logo {
-  background: url("../images/Amy Buckley Fitness Logo without text.jpg");
+  background: url("../images/logo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -203,7 +203,7 @@ footer {
 /*-------------Trainer Photo -------------*/
 
 .trainerphoto {
-  background: url("../images/Amy Buckley Personal Trainer.jpg");
+  background: url("../images/trainerphoto.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -246,7 +246,7 @@ footer {
 /*-------------PT Photo -------------*/
 
 .ptphoto {
-  background: url("../images/Amy Buckely PT Photo.JPG");
+  background: url("../images/ptphoto.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
