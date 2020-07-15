@@ -79,7 +79,6 @@ The navbar connects all pages smoothly and was tested accross full device range.
 The social media links connects to all relevant pages and was tested accross full device range.
 
 ### Bugs
-
 No bugs as of current build.
 
 Social media links were not working and a typo was discovered.
@@ -87,10 +86,30 @@ Social media links were not working and a typo was discovered.
 Bootstrap not loading probably so moved to bottom of HTML as best practice.
 
 ## Deployment
-This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
+This project was developed using Gitpod based on template provided by Code Institute, committed to git and pushed to GitHub.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/dof-bull/ci_milestone_project_1_Amy_Buckley_Fitness.git` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
+To deploy Amy Buckley Fitness to GitHub Pages from its [GitHub repository](https://dof-bull.github.io/ci_milestone_project_1_Amy_Buckley_Fitness/), the following steps were taken: 
+1. Log into GitHub. 
+2. From the list of repositories on the screen, select **dof-bull/ci_milestone_project_1_Amy_Buckley_Fitness**.
+3. From the menu items near the top of the page, select **Settings**.
+4. Scroll down to the **GitHub Pages** section.
+5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+6. On selecting Master Branch the page is automatically refreshed, Amy Buckley Fitness is now deployed. 
+7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
 
+### How to run this project locally
+
+To clone this project from GitHub:
+1. Follow this link to the [Amby Buckley Fitness GitHub repository](https://github.com/dof-bull/ci_milestone_project_1_Amy_Buckley_Fitness).
+2. Under the repository name, click "Clone or download".
+3. In the Clone with HTTPs section, copy the clone URL for the repository. 
+4. In your local IDE open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type ```git clone```, and then paste the URL you copied in Step 3.
+```console
+git clone https://github.com/dof-bull/ci_milestone_project_1_Amy_Buckley_Fitness
+```
+7. Press Enter. Your local clone will be created.
 
 ## Credits
 
@@ -112,5 +131,11 @@ All photos are used with permission of Amy Buckley Fitness.
 
 ### Acknowledgements
 All code used in this project was written by me, either in previous tutorials, during the course or during the project itself.
+
+Anthony Ngene, my project mentor, for his feedback regarding this project.
+(https://github.com/tonymontaro)
+
+Anna Greaves for providing a wonderful template for a good README.md file.
+(https://github.com/AJGreaves)
 
 **This project is currently for education purposes only and not for commercial purposes**
