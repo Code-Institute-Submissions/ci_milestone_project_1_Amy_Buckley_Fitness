@@ -52,9 +52,15 @@ To run locally, you can clone this repository directly into the editor of your c
 
 ## Credits
 
-Thanks to Ginifab for their excellent color picker app so I could get the HEX from the logo (https://www.ginifab.com/feeds/pms/color_picker_from_image.php).
+Ginifab for their excellent color picker app so I could get the HEX from the logo.
+(https://www.ginifab.com/feeds/pms/color_picker_from_image.php).
 
-Thanks to Coolors.co for use of their color pallete generator (https://coolors.co/0071bd-fffffc-2a2b2a-a8763e).
+Coolors.co for use of their color pallete generator.
+(https://coolors.co/0071bd-fffffc-2a2b2a-a8763e).
+
+Google Fonts for use of the Abel font.
+(https://fonts.google.com/specimen/Abel)
+
 
 ### Content
 All text content in this site were written by me on behalf of Amy Buckley Fitness. 
